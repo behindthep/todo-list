@@ -1,6 +1,12 @@
 # todo-list
 
-description of instructions for working with the project
+Description of instructions for working with the project.
+
+To install dependencies use:
+
+```
+composer install
+```
 
 ---
 
