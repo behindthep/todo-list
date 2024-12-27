@@ -1,0 +1,50 @@
+# Директории кэша и временные файлы
+/tmp/
+/logs/
+*.log
+
+# Файлы конфигурации
+.env
+*.local
+*.env.local
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.idea/
+
+# Файлы отладки
+coverage.xml
+*.coverage
+*.cache
+
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,phpcodesniffer
+
+### PHPCodeSniffer ###
+phpcs.xml
+
+/vendor/*
+/wpcs/*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,phpcodesniffer

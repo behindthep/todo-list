@@ -1,0 +1,20 @@
+{
+    "name": "alex/my-todo-list",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alex\\MyTodoList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexey",
+            "email": "valo07e@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.14"
+    }
+}
