@@ -1,11 +1,11 @@
 <?php
 
-require_once __DIR__ . '/src/valute.php';
-require_once __DIR__ . '/src/Formatters/Pretty.php';
-
 declare(strict_types=1);
 
 namespace Todo\List\index;
+
+require_once __DIR__ . '/src/valute.php';
+require_once __DIR__ . '/src/Formatters/Pretty.php';
 
 use function Todo\List\valute\sum as valuteSum;
 
@@ -17,7 +17,7 @@ $i += 3;
 
 // все оповещения типа Notice и Warning автоматически превращаются в исключения - xdebug.
 
-function sum($a, $b)
+function sum($a, $b) 
 {
     return $a + $b + 1;
 }
